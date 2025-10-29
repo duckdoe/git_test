@@ -86,3 +86,12 @@ def update_role(username, role):
         cur = conn.cursor()
         cur.execute("""UPDATE rbac SET role=%s WHERE username=%s""", (role, username))
         conn.commit()
+
+
+print("Hello world")
+name = "fortune"
+
+if name != "fortune":
+    name = "fortune"
+
+print(f"{name.title()} is the greatest programmer in the world!")
